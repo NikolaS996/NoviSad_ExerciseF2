@@ -76,6 +76,18 @@ public class PlanetExplorer {
 				else
 					coordinates[1]--;
 			}
+			else if(direction == "E")
+			{
+				if(coordinates[0] == x - 1)
+					coordinates[0] = 0;
+				else coordinates[0]++;
+			}
+			else if(direction == "W")
+			{
+				if(coordinates[0] == 0)
+					coordinates[0] = x - 1;
+				else coordinates[0]--;
+			}
 			break;
 		case "b":
 			break;
