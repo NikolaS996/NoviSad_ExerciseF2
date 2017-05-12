@@ -80,6 +80,14 @@ public class PlanetExplorer {
 		case "b":
 			break;
 		case "l":
+			if(direction == "N")
+				direction = "W";
+			else if(direction == "S")
+				direction = "E";
+			else if(direction == "E")
+				direction = "N";
+			else if(direction == "W")
+				direction = "S";
 			break;
 		case "r":
 			break;
