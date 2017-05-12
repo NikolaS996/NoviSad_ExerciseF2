@@ -80,4 +80,49 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, pe.executeCommand("l"));
 	}
+	
+	@Test
+	public void test_rotating_right_while_N(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "E" + ")";
+		
+		assertEquals(expected, pe.executeCommand("r"));
+	}
+	
+	@Test
+	public void test_rotating_right_while_W(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		pe.executeCommand("r");
+		
+		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "S" + ")";
+		
+		assertEquals(expected, pe.executeCommand("r"));
+	}
+	
+	@Test
+	public void test_rotating_right_while_S(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		
+		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "W" + ")";
+		
+		assertEquals(expected, pe.executeCommand("r"));
+	}
+	
+	@Test
+	public void test_rotating_right_while_E(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		
+		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "N" + ")";
+		
+		assertEquals(expected, pe.executeCommand("r"));
+	}
 }

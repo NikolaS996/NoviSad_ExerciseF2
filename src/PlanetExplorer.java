@@ -97,7 +97,7 @@ public class PlanetExplorer {
 			else if(direction == "S")
 				direction = "W";
 			else if(direction == "W")
-				direction == "N";
+				direction = "N";
 			break;
 		}
 		
