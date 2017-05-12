@@ -97,3 +97,5 @@
 1494595036625 test-last 1 447 false
 1494595036626 test-first 4 447 true
 1494595036627 test-last 1 447 false
+1494595097667 test-addition 1 50 true
+1494595097668 test-addition 1 50 true

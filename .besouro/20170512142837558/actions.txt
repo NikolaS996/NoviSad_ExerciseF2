@@ -72,3 +72,8 @@ RefactoringAction 1494595047495 TestPlanetExplorer.java ADD void test_rotating_l
 RefactoringAction 1494595051588 TestPlanetExplorer.java RENAME test_rotating_left_while_N()/2=>void test_rotating_left_while_() METHOD
 RefactoringAction 1494595054120 TestPlanetExplorer.java RENAME test_rotating_left_while_()=>void test_rotating_left_while_W() METHOD
 EditAction 1494595071604 TestPlanetExplorer.java 1339 4 15 4
+UnitTestCaseAction 1494595097667 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494595097667 TestPlanetExplorer.java OK
+RefactoringAction 1494595102370 TestPlanetExplorer.java ADD void test_rotating_left_while_W()/2 METHOD
+RefactoringAction 1494595104917 TestPlanetExplorer.java RENAME test_rotating_left_while_W()/2=>void test_rotating_left_while_S() METHOD
+EditAction 1494595114620 TestPlanetExplorer.java 1614 5 20 5
