@@ -146,3 +146,8 @@ RefactoringAction 1494596115428 TestPlanetExplorer.java ADD void test_moving_for
 RefactoringAction 1494596118474 TestPlanetExplorer.java RENAME test_moving_forward_while_W()/2=>void test_moving_forward_while_E() METHOD
 EditAction 1494596119115 TestPlanetExplorer.java 4363 15 76 15
 EditAction 1494596146580 TestPlanetExplorer.java 4285 15 73 15
+UnitTestCaseAction 1494596151611 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494596151611 TestPlanetExplorer.java OK
+RefactoringAction 1494596161125 TestPlanetExplorer.java ADD void test_moving_forward_while_W_while_at_the_edge()/2 METHOD
+RefactoringAction 1494596163141 TestPlanetExplorer.java RENAME test_moving_forward_while_W_while_at_the_edge()/2=>void test_moving_forward_while_E_while_at_the_edge() METHOD
+EditAction 1494596175139 TestPlanetExplorer.java 4583 16 78 16
