@@ -50,7 +50,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String[] values;
+		/*String[] values;
 		values = obstacles.split(")(");
 		for(int i = 0 ; i < values.length ; i++)
 		{
@@ -58,7 +58,7 @@ public class PlanetExplorer {
 		}
 		
 		
-		String obst = values[1];
+		String obst = values[1];*/
 		switch(command)
 		{
 		case "f":

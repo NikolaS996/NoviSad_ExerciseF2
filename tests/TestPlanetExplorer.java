@@ -14,4 +14,11 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, pe.executeCommand("f"));
 	}
+	
+	/*@Test
+	public void test_moving_up_while_N_at_the_edge(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		assertEquals(expected, pe.executeCommand("f"));
+	}*/
 }
