@@ -59,3 +59,9 @@ EditAction 1494594738087 TestPlanetExplorer.java 860 3 12 3
 EditAction 1494594752712 TestPlanetExplorer.java 860 3 12 3
 RefactoringAction 1494594807759 TestPlanetExplorer.java REMOVE test_moving_down_while_S() METHOD
 EditAction 1494594810930 TestPlanetExplorer.java 868 2 8 2
+RefactoringAction 1494594926180 TestPlanetExplorer.java ADD void test_moving_up_while_N_and_while_at_the_edge()/2 METHOD
+RefactoringAction 1494594938383 TestPlanetExplorer.java RENAME test_moving_up_while_N_and_while_at_the_edge()/2=>void test_rotating_left_up_while_N_and_while_at_the_edge() METHOD
+RefactoringAction 1494594950086 TestPlanetExplorer.java RENAME test_rotating_left_up_while_N_and_while_at_the_edge()=>void test_rotating_left_while() METHOD
+RefactoringAction 1494594990132 TestPlanetExplorer.java RENAME test_rotating_left_while()=>void test_rotating_left_while_() METHOD
+RefactoringAction 1494594994211 TestPlanetExplorer.java RENAME test_rotating_left_while_()=>void test_rotating_left_while_N() METHOD
+EditAction 1494595028257 TestPlanetExplorer.java 1088 3 11 3

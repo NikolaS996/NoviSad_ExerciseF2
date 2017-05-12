@@ -36,5 +36,13 @@ public class TestPlanetExplorer {
 		assertEquals(expected, pe.executeCommand("f"));
 	}*/
 	
+	@Test
+	public void test_rotating_left_while_N(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "W" + ")";
+		
+		assertEquals(expected, pe.executeCommand("l"));
+	}
 	
 }
