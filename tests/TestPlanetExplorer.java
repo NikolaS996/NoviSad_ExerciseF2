@@ -53,7 +53,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moving_forward_while_W() {
+	public void test_moving_forward_while_W_while_at_the_edge() {
 		PlanetExplorer pe = new PlanetExplorer(4, 4);
 		
 		pe.executeCommand("f");

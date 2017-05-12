@@ -131,3 +131,7 @@ EditAction 1494595997858 TestPlanetExplorer.java 3621 13 60 13
 UnitTestCaseAction 1494596005411 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494596005411 TestPlanetExplorer.java FAIL
 EditAction 1494596010472 TestPlanetExplorer.java 3621 13 60 13
+UnitTestCaseAction 1494596014692 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494596014708 TestPlanetExplorer.java OK
+RefactoringAction 1494596025535 TestPlanetExplorer.java RENAME test_moving_forward_while_W()=>void test_moving_forward_while_W_while_at_the_edge() METHOD
+EditAction 1494596026175 TestPlanetExplorer.java 3639 13 60 13
