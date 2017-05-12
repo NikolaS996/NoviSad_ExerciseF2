@@ -82,3 +82,6 @@ UnitTestSessionAction 1494595119057 TestPlanetExplorer.java OK
 RefactoringAction 1494595124228 TestPlanetExplorer.java ADD void test_rotating_left_while_S()/2 METHOD
 RefactoringAction 1494595126791 TestPlanetExplorer.java RENAME test_rotating_left_while_S()/2=>void test_rotating_left_while_E() METHOD
 EditAction 1494595138916 TestPlanetExplorer.java 1917 6 26 6
+UnitTestCaseAction 1494595144656 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494595144656 TestPlanetExplorer.java OK
+EditAction 1494595197390 PlanetExplorer.java 2677 3 11 0
