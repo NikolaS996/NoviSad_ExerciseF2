@@ -68,6 +68,10 @@ public class PlanetExplorer {
 					{
 						coordinates[1]++;
 					}
+					else
+					{
+						coordinates[1] = 0;
+					}
 			}
 			else if(direction == "S")
 			{
