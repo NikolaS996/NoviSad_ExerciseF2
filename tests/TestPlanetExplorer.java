@@ -76,7 +76,7 @@ public class TestPlanetExplorer {
 		pe.executeCommand("l");
 		
 		
-		String expected = "(pos_" + 3 + ",pos_" + 1 +"," + "W" + ")";
+		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "W" + ")";
 		
 		assertEquals(expected, pe.executeCommand("f"));
 	}
