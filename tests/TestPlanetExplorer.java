@@ -64,6 +64,23 @@ public class TestPlanetExplorer {
 		assertEquals(expected, pe.executeCommand("f"));
 	}
 	
+
+	@Test
+	public void test_moving_forward_while_W() {
+		PlanetExplorer pe = new PlanetExplorer(4, 4);
+		
+		pe.executeCommand("f");
+		pe.executeCommand("r");
+		pe.executeCommand("f");
+		pe.executeCommand("l");
+		pe.executeCommand("l");
+		
+		
+		String expected = "(pos_" + 3 + ",pos_" + 1 +"," + "W" + ")";
+		
+		assertEquals(expected, pe.executeCommand("f"));
+	}
+	
 	@Test
 	public void test_rotating_left_while_N(){
 		PlanetExplorer pe = new PlanetExplorer(3,3);
