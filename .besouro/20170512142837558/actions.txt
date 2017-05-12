@@ -124,3 +124,4 @@ UnitTestSessionAction 1494595901336 TestPlanetExplorer.java OK
 RefactoringAction 1494595907555 TestPlanetExplorer.java ADD void test_moving_forward_while_S()/2 METHOD
 RefactoringAction 1494595910617 TestPlanetExplorer.java RENAME test_moving_forward_while_S()/2=>void test_moving_forward_while_W() METHOD
 EditAction 1494595934101 TestPlanetExplorer.java 3621 13 60 13
+EditAction 1494595947539 TestPlanetExplorer.java 3621 13 60 13
