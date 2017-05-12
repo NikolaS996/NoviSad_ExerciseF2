@@ -103,4 +103,8 @@ public class PlanetExplorer {
 		
 		return "(pos_" + coordinates[0] + ",pos_" + coordinates[1] +"," + direction + ")";
 	}
+
+	/*public int[] getCoordinates() {
+		return coordinates;
+	}*/
 }

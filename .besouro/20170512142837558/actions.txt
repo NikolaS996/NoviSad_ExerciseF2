@@ -111,3 +111,8 @@ UnitTestSessionAction 1494595399776 TestPlanetExplorer.java OK
 RefactoringAction 1494595418057 TestPlanetExplorer.java RENAME test_moving_forward_while_S()=>void test_moving_forward_while_S_and_while_at_the_edge() METHOD
 RefactoringAction 1494595422620 TestPlanetExplorer.java ADD void test_moving_forward_while_S() METHOD
 EditAction 1494595480990 TestPlanetExplorer.java 3339 12 55 12
+UnitTestCaseAction 1494595485814 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494595485814 TestPlanetExplorer.java OK
+RefactoringAction 1494595585220 PlanetExplorer.java ADD int METHOD
+RefactoringAction 1494595616751 PlanetExplorer.java REMOVE getCoordinates() METHOD
+EditAction 1494595619142 PlanetExplorer.java 2743 3 13 0
