@@ -1,0 +1,6 @@
+FileOpenedAction 1494592118010 PlanetExplorer.java 1245 2 1 0
+FileOpenedAction 1494592185241 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1494592431259 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1494592431259 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1494592435822 PlanetExplorer.java ADD String obstacles FIELD
+EditAction 1494592453336 PlanetExplorer.java 1369 2 4 0
