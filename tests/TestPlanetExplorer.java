@@ -98,9 +98,12 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(4, 4);
 		
 		pe.executeCommand("f");
-		pe.executeCommand("l");
+		pe.executeCommand("r");
+		pe.executeCommand("f");
+		pe.executeCommand("f");
+		pe.executeCommand("f");
 		
-		String expected = "(pos_" + 3 + ",pos_" + 1 +"," + "W" + ")";
+		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "E" + ")";
 		
 		assertEquals(expected, pe.executeCommand("f"));
 	}
