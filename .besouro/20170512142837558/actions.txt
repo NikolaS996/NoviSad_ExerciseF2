@@ -101,3 +101,5 @@ UnitTestSessionAction 1494595275619 TestPlanetExplorer.java OK
 RefactoringAction 1494595309369 TestPlanetExplorer.java RENAME test_moving_up_while_N()=>void test_moving_forward_while_N() METHOD
 RefactoringAction 1494595313947 TestPlanetExplorer.java RENAME test_moving_up_while_N_and_while_at_the_edge()=>void test_moving_forward_while_N_and_while_at_the_edge() METHOD
 EditAction 1494595315666 TestPlanetExplorer.java 2984 10 44 10
+RefactoringAction 1494595329182 TestPlanetExplorer.java ADD void test_moving_forward_while_S() METHOD
+EditAction 1494595376400 TestPlanetExplorer.java 3010 11 49 11
