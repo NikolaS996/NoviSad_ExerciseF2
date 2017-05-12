@@ -72,7 +72,7 @@ public class PlanetExplorer {
 			else if(direction == "S")
 			{
 				if(coordinates[1] == 0)
-					coordinates[1] = y;
+					coordinates[1] = y - 1;
 				else
 					coordinates[1]--;
 			}
