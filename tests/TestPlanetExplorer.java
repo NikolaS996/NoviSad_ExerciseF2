@@ -45,4 +45,15 @@ public class TestPlanetExplorer {
 		assertEquals(expected, pe.executeCommand("l"));
 	}
 	
+	@Test
+	public void test_rotating_left_while_W(){
+		PlanetExplorer pe = new PlanetExplorer(3,3);
+		
+		pe.executeCommand("l");
+		
+		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "S" + ")";
+		
+		assertEquals(expected, pe.executeCommand("l"));
+	}
+	
 }
