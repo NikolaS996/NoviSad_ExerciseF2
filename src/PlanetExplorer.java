@@ -65,17 +65,16 @@ public class PlanetExplorer {
 			if(direction == "N")
 			{
 					if(coordinates[1] < y - 1)
-					{
 						coordinates[1]++;
-					}
 					else
-					{
 						coordinates[1] = 0;
-					}
 			}
 			else if(direction == "S")
 			{
-				
+				if(coordinates[1] == 0)
+					coordinates[1] = y;
+				else
+					coordinates[1]--;
 			}
 			break;
 		case "b":
