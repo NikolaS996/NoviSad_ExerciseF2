@@ -57,3 +57,5 @@ RefactoringAction 1494594699650 TestPlanetExplorer.java RENAME test_moving_up_wh
 EditAction 1494594700915 TestPlanetExplorer.java 893 3 11 3
 EditAction 1494594738087 TestPlanetExplorer.java 860 3 12 3
 EditAction 1494594752712 TestPlanetExplorer.java 860 3 12 3
+RefactoringAction 1494594807759 TestPlanetExplorer.java REMOVE test_moving_down_while_S() METHOD
+EditAction 1494594810930 TestPlanetExplorer.java 868 2 8 2

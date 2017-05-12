@@ -25,7 +25,7 @@ public class TestPlanetExplorer {
 		assertEquals(expected, pe.executeCommand("f"));
 	}
 	
-	@Test
+	/*@Test
 	public void test_moving_down_while_S() {
 		PlanetExplorer pe = new PlanetExplorer(4, 4);
 		
@@ -34,5 +34,7 @@ public class TestPlanetExplorer {
 		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "N" + ")";
 		
 		assertEquals(expected, pe.executeCommand("f"));
-	}
+	}*/
+	
+	
 }
