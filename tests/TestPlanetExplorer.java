@@ -8,8 +8,6 @@ public class TestPlanetExplorer {
 	public void test_moving_up_while_N() {
 		PlanetExplorer pe = new PlanetExplorer(3, 3);
 		
-		//pe.executeCommand("f");
-		
 		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "N" + ")";
 		
 		assertEquals(expected, pe.executeCommand("f"));
@@ -29,9 +27,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_moving_down_while_N() {
-		PlanetExplorer pe = new PlanetExplorer(3, 3);
+		PlanetExplorer pe = new PlanetExplorer(4, 4);
 		
-		//pe.executeCommand("f");
+		pe.executeCommand("f");
 		
 		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "N" + ")";
 		
