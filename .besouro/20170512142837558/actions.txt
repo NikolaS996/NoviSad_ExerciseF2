@@ -52,3 +52,6 @@ UnitTestCaseAction 1494594578354 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494594578354 TestPlanetExplorer.java OK
 EditAction 1494594588822 TestPlanetExplorer.java 640 2 8 2
 EditAction 1494594673212 PlanetExplorer.java 2286 3 13 0
+RefactoringAction 1494594694556 TestPlanetExplorer.java ADD void test_moving_up_while_N()/2 METHOD
+RefactoringAction 1494594699650 TestPlanetExplorer.java RENAME test_moving_up_while_N()/2=>void test_moving_down_while_N() METHOD
+EditAction 1494594700915 TestPlanetExplorer.java 893 3 11 3

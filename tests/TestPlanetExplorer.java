@@ -26,4 +26,15 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, pe.executeCommand("f"));
 	}
+	
+	@Test
+	public void test_moving_down_while_N() {
+		PlanetExplorer pe = new PlanetExplorer(3, 3);
+		
+		//pe.executeCommand("f");
+		
+		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "N" + ")";
+		
+		assertEquals(expected, pe.executeCommand("f"));
+	}
 }
