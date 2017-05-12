@@ -21,7 +21,6 @@ public class TestPlanetExplorer {
 		
 		pe.executeCommand("f");
 		pe.executeCommand("f");
-		pe.executeCommand("f");
 		
 		String expected = "(pos_" + 0 + ",pos_" + 0 +"," + "N" + ")";
 		
