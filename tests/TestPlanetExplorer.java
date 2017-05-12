@@ -16,7 +16,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moving_up_while_N_at_the_edge(){
+	public void test_moving_up_while_N_and_while_at_the_edge(){
 		PlanetExplorer pe = new PlanetExplorer(3,3);
 		
 		pe.executeCommand("f");
