@@ -32,6 +32,20 @@ public class TestPlanetExplorer {
 
 		pe.executeCommand("l");
 		pe.executeCommand("l");
+		pe.executeCommand("f");
+		
+		String expected = "(pos_" + 0 + ",pos_" + 2 +"," + "S" + ")";
+		
+		assertEquals(expected, pe.executeCommand("f"));
+	}
+	
+	@Test
+	public void test_moving_forward_while_S_and_while_at_the_edge() {
+		PlanetExplorer pe = new PlanetExplorer(4, 4);
+		
+
+		pe.executeCommand("l");
+		pe.executeCommand("l");
 		
 		String expected = "(pos_" + 0 + ",pos_" + 3 +"," + "S" + ")";
 		

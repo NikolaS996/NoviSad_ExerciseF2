@@ -5,3 +5,4 @@
 1494595119057 test-addition 1 21 true
 1494595144656 test-addition 1 25 true
 1494595275619 test-last 1 130 false
+1494595399776 test-first 3 124 true
