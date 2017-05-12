@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	public void test_moving_forward_while_S() {
 		PlanetExplorer pe = new PlanetExplorer(4, 4);
 		
-
+		
 		pe.executeCommand("l");
 		pe.executeCommand("l");
 		pe.executeCommand("f");

@@ -118,3 +118,4 @@ RefactoringAction 1494595616751 PlanetExplorer.java REMOVE getCoordinates() METH
 EditAction 1494595619142 PlanetExplorer.java 2743 3 13 0
 EditAction 1494595686391 TestPlanetExplorer.java 3339 12 55 12
 EditAction 1494595815437 PlanetExplorer.java 2989 3 13 0
+EditAction 1494595897202 TestPlanetExplorer.java 3341 12 55 12
