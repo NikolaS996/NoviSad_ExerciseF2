@@ -36,7 +36,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		
+		String[] values;
+		values = obstacles.split("_");
 		switch(command)
 		{
 		case "f":
