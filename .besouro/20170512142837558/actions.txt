@@ -151,3 +151,4 @@ UnitTestSessionAction 1494596151611 TestPlanetExplorer.java OK
 RefactoringAction 1494596161125 TestPlanetExplorer.java ADD void test_moving_forward_while_W_while_at_the_edge()/2 METHOD
 RefactoringAction 1494596163141 TestPlanetExplorer.java RENAME test_moving_forward_while_W_while_at_the_edge()/2=>void test_moving_forward_while_E_while_at_the_edge() METHOD
 EditAction 1494596175139 TestPlanetExplorer.java 4583 16 78 16
+EditAction 1494596178482 TestPlanetExplorer.java 4583 16 78 16
