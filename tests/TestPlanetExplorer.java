@@ -26,7 +26,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moving_down_while_N() {
+	public void test_moving_down_while_S() {
 		PlanetExplorer pe = new PlanetExplorer(4, 4);
 		
 		pe.executeCommand("f");
