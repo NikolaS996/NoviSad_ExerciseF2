@@ -124,3 +124,7 @@
 1494596151611 test-addition 1 43 true
 1494596151612 test-addition 1 43 true
 1494596151613 test-addition 1 43 true
+1494596240445 test-addition 2 79 true
+1494596240446 test-addition 1 79 true
+1494596240447 test-addition 2 79 true
+1494596240448 test-addition 1 79 true
