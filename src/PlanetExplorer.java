@@ -22,7 +22,6 @@ public class PlanetExplorer {
 		this.y = y;
 		this.obstacles = obstacles;
 		direction = "N";
-		
 	}
 	
 	public String executeCommand(String command){
@@ -37,9 +36,14 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		
 		switch(command)
 		{
 		case "f":
+			if(direction == "N")
+			{
+				
+			}
 			break;
 		case "b":
 			break;
