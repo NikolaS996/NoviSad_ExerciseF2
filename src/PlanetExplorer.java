@@ -1,3 +1,4 @@
+import java.util.List;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
@@ -9,6 +10,8 @@ public class PlanetExplorer {
 	private int y;
 	private String obstacles;
 	private String direction;
+	List<String> list;
+	private int[] coordinates;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -22,6 +25,17 @@ public class PlanetExplorer {
 		this.y = y;
 		this.obstacles = obstacles;
 		direction = "N";
+		coordinates[0] = 0;	//x
+		coordinates[1] = 0;	//y
+	}
+	
+	public PlanetExplorer(int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+		direction = "N";
+		coordinates[0] = 0;
+		coordinates[1] = 0;
 	}
 	
 	public String executeCommand(String command){
@@ -37,11 +51,28 @@ public class PlanetExplorer {
 		 */
 		
 		String[] values;
-		values = obstacles.split("_");
+		values = obstacles.split(")(");
+		for(int i = 0 ; i < values.length ; i++)
+		{
+			list.add(values[i]);
+		}
+		
+		
+		String obst = values[1];
 		switch(command)
 		{
 		case "f":
 			if(direction == "N")
+			{
+				if(list.isEmpty())
+				{
+					if(coordinates[1] < y - 1)
+					{
+						coordinates[1]++;
+					}
+				}
+			}
+			else if(direction == "S")
 			{
 				
 			}
