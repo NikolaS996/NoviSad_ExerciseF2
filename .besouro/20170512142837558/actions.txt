@@ -96,3 +96,8 @@ RefactoringAction 1494595223906 TestPlanetExplorer.java RENAME test_rotating_lef
 RefactoringAction 1494595227952 TestPlanetExplorer.java RENAME test_rotating_left_while_S()/2=>void test_rotating_right_while_S() METHOD
 RefactoringAction 1494595231031 TestPlanetExplorer.java RENAME test_rotating_left_while_E()/2=>void test_rotating_right_while_E() METHOD
 EditAction 1494595268827 TestPlanetExplorer.java 2974 10 44 10
+UnitTestCaseAction 1494595275619 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494595275619 TestPlanetExplorer.java OK
+RefactoringAction 1494595309369 TestPlanetExplorer.java RENAME test_moving_up_while_N()=>void test_moving_forward_while_N() METHOD
+RefactoringAction 1494595313947 TestPlanetExplorer.java RENAME test_moving_up_while_N_and_while_at_the_edge()=>void test_moving_forward_while_N_and_while_at_the_edge() METHOD
+EditAction 1494595315666 TestPlanetExplorer.java 2984 10 44 10

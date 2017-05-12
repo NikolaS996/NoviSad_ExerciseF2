@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void test_moving_up_while_N() {
+	public void test_moving_forward_while_N() {
 		PlanetExplorer pe = new PlanetExplorer(3, 3);
 		
 		String expected = "(pos_" + 0 + ",pos_" + 1 +"," + "N" + ")";
@@ -14,7 +14,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moving_up_while_N_and_while_at_the_edge(){
+	public void test_moving_forward_while_N_and_while_at_the_edge(){
 		PlanetExplorer pe = new PlanetExplorer(3,3);
 		
 		pe.executeCommand("f");
