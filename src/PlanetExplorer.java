@@ -85,6 +85,6 @@ public class PlanetExplorer {
 			break;
 		}
 		
-		return null;
+		return "(pos_" + coordinates[0] + ",pos_" + coordinates[1] +"," + direction + ")";
 	}
 }

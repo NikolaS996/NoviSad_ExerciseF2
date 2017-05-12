@@ -22,3 +22,4 @@ RefactoringAction 1494594052857 TestPlanetExplorer.java RENAME test_moving_up=>v
 RefactoringAction 1494594054404 TestPlanetExplorer.java RENAME test_moving_up_while=>void test_moving_up_while_N FIELD
 RefactoringAction 1494594089935 PlanetExplorer.java ADD PlanetExplorer(int, int) METHOD
 EditAction 1494594272949 TestPlanetExplorer.java 290 1 3 0
+EditAction 1494594311043 PlanetExplorer.java 2202 3 17 0
