@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	private String obstacles;
 	private String direction;
 	List<String> list;
-	private int[] coordinates;
+	private int[] coordinates = new int[2];
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -64,13 +64,10 @@ public class PlanetExplorer {
 		case "f":
 			if(direction == "N")
 			{
-				if(list.isEmpty())
-				{
 					if(coordinates[1] < y - 1)
 					{
 						coordinates[1]++;
 					}
-				}
 			}
 			else if(direction == "S")
 			{
